@@ -14,7 +14,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ title, body }) => {
     return (
         <Card 
         className={`cursor-pointer mt-5 mb-3 w-[95%] md:w-[60%] ${mode ? 'bg-white text-black' : 'bg-slate-800 text-white border-slate-900 shadow-lg'}
-        hover:${mode ? '' : ''} hover:border-t hover:border-l hover:border-r hover:shadow-lg transition-shadow duration-300`}
+        hover:${mode ? '' : ''} hover:border-t hover:border-l hover:border-r hover:scale-105 hover:shadow-lg transition-all  duration-300`}
         >
             <div className="flex items-center p-4">
                 <div className={`h-[30px] w-[30px] ${mode ? 'bg-slate-800' : 'bg-slate-600'} rounded-full text-white flex justify-center items-center`}>
