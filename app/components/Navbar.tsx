@@ -14,7 +14,7 @@ const Navbar = ()=>{
             <div className={`  ${mode === true? 'bg-white text-black' :'bg-slate-800 text-white'}  w-[100%] h-[60px] flex items-center  justify-around shadow-md sticky top-0  ease-in-out `}>
                     <button className="mr-[20px] h-[40px] w-[70px] rounded-full bg-green-500 text-white">New</button>
                     <div className="flex items-center">
-                    <div className={`h-[40px] w-[40px] bg-slate-800 rounded-full text-white flex justify-center items-center ${mode ?'' :'bg-slate-100 text-black'}`}>
+                    <div className={`h-[40px] w-[40px]  rounded-full  flex justify-center items-center ${mode ?'bg-slate-800 text-white' :'bg-slate-100 text-black'}`}>
                     J
                 </div>
                 <p onClick={handleMode} className="ml-5 cursor-pointer">Mode</p>
